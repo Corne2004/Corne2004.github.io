@@ -17,7 +17,7 @@ function loadXMLDoc() {
       this.responseText;
     }
   };
-  xhttp.open("GET", "POST /oauth/token?grant_type=authorization_code&code=123456789", true);
+  xhttp.open("POST", "/oauth/token?grant_type=authorization_code&code=123456789", true);
   console.log(xhttp);
   xhttp.send();
 
