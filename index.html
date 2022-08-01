@@ -18,6 +18,7 @@ function loadXMLDoc() {
     }
   };
   xhttp.open("GET", "https://driestarcollege.zportal.nl/api/v3/appointmentparticipations?week=197001&fields=id%2CappointmentInstance%2CstudentInDepartment%2Coptional%2CallowedStudentActions%2Ccapacity%2CstudentEnrolled%2CattendanceMentor%2CattendanceScheduler%2CattendanceParticipationCoordinator%2CplannedAttendance%2Conline%2CrealizedAttendance%2CpublicComment&student=~me");
+  console.log(xhttp);
   xhttp.send();
 
 }
